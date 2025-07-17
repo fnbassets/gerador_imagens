@@ -12,6 +12,8 @@ def download_font(font_url, font_path):
             f.write(r.content)
         print(f"Font saved to {font_path}")
 
+# @TODO: colocar isso em um arquivo de configuração
+# Definindo os links e caminhos dos arquivos de fonte
 fonts = {
     "font1": {
         "url": "https://github.com/google/fonts/raw/main/ofl/montserrat/Montserrat-Bold.ttf",
